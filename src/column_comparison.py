@@ -11,6 +11,9 @@ def main():
                   [5,7,6,0,4],
                   [7,8,1,6,2],
                   [2,1,3,5,8]])
+    print(a)
+    print("Rows where column 1 > second-to-last column:")
+    print(column_comparison(a))
 
 if __name__ == "__main__":
     main()
